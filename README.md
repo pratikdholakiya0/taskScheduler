@@ -19,7 +19,7 @@ A full-stack task scheduling web application built with **Spring Boot (Java)** f
 - Spring Boot
 - Spring Security (JWT)
 - Hibernate + JPA
-- MySQL / PostgreSQL
+- MySQL / Mongodb 
 - Java Mail API
 
 ### Frontend
