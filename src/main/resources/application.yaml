@@ -1,14 +1,14 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017
-      database: task_management_db
+      uri: your-uri
+      database: your-database-name 
       auto-index-creation: true
   mail:
     host: smtp.gmail.com
     port: 587
-    username: dholakiya225@gmail.com
-    password: znea cnoc nyqy zvqt
+    username: your-email 
+    password: your-app-password 
     properties:
       mail:
         smtp:
