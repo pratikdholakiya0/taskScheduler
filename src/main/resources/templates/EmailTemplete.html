@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Buzly Account Created</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f4f6;
+            font-family: 'Segoe UI', 'Roboto', sans-serif;
+            color: #333333;
+        }
+
+        .email-wrapper {
+            width: 100%;
+            background-color: #f2f4f6;
+            padding: 40px 0;
+        }
+
+        .email-content {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+        }
+
+        .email-header {
+            background: linear-gradient(135deg, #5b4ef7, #7f64ff);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .email-header img {
+            width: 48px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .email-header h1 {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 28px;
+            margin: 0;
+            vertical-align: middle;
+            font-weight: 600;
+        }
+
+        .email-body {
+            padding: 30px;
+        }
+
+        .email-body h2 {
+            color: #333333;
+            font-size: 22px;
+            margin-top: 0;
+        }
+
+        .email-body p {
+            line-height: 1.6;
+            font-size: 16px;
+            margin: 15px 0;
+        }
+
+        .user-email {
+            font-weight: 600;
+            color: #444;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #5b4ef7;
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 25px;
+        }
+
+        .email-footer {
+            text-align: center;
+            font-size: 13px;
+            color: #888888;
+            padding: 25px;
+            background-color: #fafafa;
+        }
+
+        .email-footer a {
+            color: #5b4ef7;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .email-body {
+                padding: 20px;
+            }
+
+            .email-header h1 {
+                font-size: 24px;
+            }
+
+            .cta-button {
+                width: 100%;
+                text-align: center;
+                padding: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="email-wrapper">
+    <div class="email-content">
+
+        <!-- Header -->
+        <div class="email-header">
+            <h1>Task Scheduler</h1>
+        </div>
+
+        <!-- Body -->
+        <div class="email-body">
+            <h2>Your have got a task</h2>
+
+            <p><span class="user-email">givenMail</span></p>
+
+            <p>
+                hey <b>ourUser</b> you have got new a new task.
+            </p>
+
+            <p>
+                complete task before deadline and report as soon as possible.
+            </p>
+
+            <a href="https://TaskScheduler.app/security" class="cta-button">Secure Your Account</a>
+        </div>
+
+        <!-- Footer -->
+        <div class="email-footer">
+            You can also review your activity at<br />
+            <a href="https://TaskScheduler.app/account/activity">https://TaskScheduler.app/account/activity</a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
